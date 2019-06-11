@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/UI/mainMenu.unity
+    guid: c44230a773b1646ef9774b8c07c6ddd5
+  - enabled: 1
+    path: Assets/Scenes/Final Scene.unity
+    guid: 14dd26e0fc106174797b93ceafc9b675
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Mini Games/Room5_LogicGatesGame/Room5_LogicGatesGame.unity
+    guid: d2baae067a636d545b4235ac40f10b63
+  - enabled: 1
+    path: Assets/Scenes/Mini Games/Room6_BinaryCardGame/Room6_BinaryCardGame.unity
+    guid: 307ae7c518225ac44930f2a69398f0e4
+  - enabled: 0
+    path: Assets/Scenes/Mini Games/Room6_BinaryCardGame/Room6_BinaryCardGame_Scene2.unity
+    guid: 371c81495efc5204eab331b050edd96e
+  - enabled: 1
+    path: Assets/Scenes/Mini Games/Room2_NewDoorHandle.unity
+    guid: 389f395a0bd47f44684174d3e7ff0a47
+  - enabled: 1
+    path: Assets/Scenes/Mini Games/Room8_PetMazeGame.unity
+    guid: becf5e722b8b6964a9dcb1233d0e4aa3
+  m_configObjects: {}

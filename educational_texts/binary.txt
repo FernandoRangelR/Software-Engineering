@@ -1,0 +1,67 @@
+The number system that you use to count every day is called base-10, or decimal notation. This means that there are 10 numbers that we can use to count as high as we want. These numbers are 0-9. The earliest computers used only 2 numbers to work--0 and 1. Think of it like a light switch. 0 is off and 1 is on. This is called base-2, or binary notation. It is useful to understand how to convert between decimal and binary because it helps you to understand how the computer stores information. In order to make sense of binary, it is best to convert it to decimal. 
+
+Each number in a binary number, represents a power of 2. Let's look at the binary number 1101. In this example, the 1 farthest to the right is 2 to the power of 0. The 0 is 2 to the power of 1. The next 1 is 2 to the power of 2, and the 1 on the far left is 2 to the power of 3. This means that you will take each digit in the binary number and multiply it by whatever place it is in:
+
+1 * 2^0 = 1
+0 * 2^1 = 2
+1 * 2^2 = 4
+1 * 2^3 = 8
+
+Then, you take the sum of those products:
+
+8 + 4 + 0 + 1 = 13.
+
+Now you know that 1101 is the same as writing 13.
+
+
+If you want convert a decimal number to binary, it is helpful to write out each of the powers of 2 up to the highest number that is also less than the decimal number you want to convert to binary. 
+
+The powers of 2 are:
+2^0 = 1
+2^1 = 2
+2^2 = 4
+2^3 = 8
+2^4 = 16
+2^5 = 32
+2^6 = 64 
+2^7 = 128
+
+Let's try an example. We can convert the number 14 to binary by writing it out. We know that the largest power of 2 that is also less than 14 is 2 to the power of 3, which equals 8. It can be helpful to write this out on a piece of paper.
+
+First, write out all the powers of 2 that are less than or equal to 8:
+
+8	4	2	1
+
+We want to put a one under the 8 because that is the biggest number that is less than our decimal number:
+
+8	4	2	1
+1	
+
+Now we should subtract 8 from our number. 14 - 8 = 6. What is the next number that is less than or equal to 6 in our list? 4 is less than 6 so we will put a 1 there. 
+
+8	4	2	1
+1	1 	
+
+Now we subtract 4 from our total: 6 - 4 = 2.
+
+
+We repeat the process again. Which number is less than or equal to our number? It looks like the next number, 2, is equal to 2 so we'll put a 1 there and subtract 2 from our total.
+
+8	4	2	1
+1	1	1		
+
+2 - 2 = 0
+
+Now we have nothing left, so we know we are finished but what about the 2^0? We can't just ignore it. This is where 0 comes in. Fill in any empty spaces with a 0. In this case, it is only 2^0. We can see that the only number left in our list is also 1, so we put a one there too:
+
+8	4	2	1
+1   1   1   0
+
+
+We have successfully converted the decimal 14 into binary 1110. You can always check that you've done this correctly by converting the answer you get back into decimal.
+
+
+
+https://www.ducksters.com/kidsmath/binary_numbers_basics.php
+
+

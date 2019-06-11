@@ -1,0 +1,31 @@
+There are many programming languages in existence. Each language has its own specific features, tools, and syntax. However, many programming languages have features in common. In this game, you're going to learn about the concept of loops and basic syntax. When you are writing a program, you will probably come across a situation where you want the same thing to happen over and over again until a condition is met.
+
+
+For this, we can use a type of loop known as a while loop. 
+Lets look at the syntax of a while loop:
+
+while (condition) {
+	do this;
+}
+
+You can see a few things in this loop that you might not be familiar with. First, we have the word "while" this tells the compiler that you are going to use a while loop. You can read it as "while the condition is met, do the thing inside the curly braces." Inside the parentheses is where we tell the computer when to stop doing the thing, also called the condition.
+
+
+For example, if you want to add one to a variable until the variable is equal to 5 then you could write:
+
+while(a < 5) {
+	a = a + 1;
+}
+
+You might also have noticed that there is a semi-colon after the statement inside the while loop. Many programming languages use this to be able to know where a statement stops. This is very similar to how a full stop works in English and many other human languages.
+
+You can also make true or false conditions in your while loop. In many programming languages, if we want to test whether or not something is equal to something else, we use 2 equals signs without a space (==) this means "is equal to". It is written this way because a single equals sign is used when you want to set the variable on the left side equal to the thing on the right side. == is used for comparing the thing on the left with the thing on the right. Similarly, if we want to say that the variable on the left is not equal to the thing on the right, we use !=, which can be read as "not equal to". Generally, the exclamation point means "not" in programming. If you were to write "!true", you are saying "not true", which is the same as saying false. 
+
+We can write our previous example again, in a different way to illustrate these concepts:
+
+while (a != 5) {
+	a = a + 1;
+}
+
+This works exactly the same as the first example. When the condition is met (i.e when a == 5), the loop will exit.
+
